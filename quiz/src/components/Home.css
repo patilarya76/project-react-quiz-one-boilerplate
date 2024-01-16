@@ -10,8 +10,10 @@
 #homeplay {
     width: 13vw;
     height: 2vw;
-    background-color: #0ab306;
-    border-radius: 20px;
+    background-color: #015800;
+    border-radius: 10px;
     cursor: pointer;
     color: white;
+    font-size: 1rem;
+    /* padding-bottom: 10px; */
 }

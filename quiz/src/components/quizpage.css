@@ -19,7 +19,8 @@ body {
   p {
     padding-top: 2vw;
     text-align: center;
-    font-size:18px;
+    font-size:20px;
+    color: #3e7eaa;
   }
   .options {
     display: flex;
@@ -28,13 +29,14 @@ body {
     flex-wrap: wrap;
   }
   .option {
-    background-color: #1ea1f1;
+    background-color: #0d3c5a;
     margin: 2vw;
     width: 30vw;
-    height: 2.5vw;
-    border-radius: 20px;
+    height: 3vw;
+    border-radius: 10px;
     color: white;
     border-style: none;
+    font-size:1.5rem;
   }
   .button {
     margin: 0 2vw 2vw 0;
@@ -43,11 +45,15 @@ body {
     height: 2vw;
     color: black;
     font-weight: bold;
+    align-items: center;
+    border-radius: 5px;
   }
   .buttons {
     display: flex;
     justify-content: center;
-    margin-top: 3vw;
+    margin-top: 2.5vw;
+    /* align-items: center; */
+    /* border-radius: 10px */
   }
   #previous {
     background-color: #3e7eaa;
